@@ -21,7 +21,7 @@ jobs:
 
       - name: Generate surprises.json
         run: |
-          node scripts/generate-surprises.js
+          node script/generate-surprises.js
 
       - name: Commit and push updated surprises.json
         run: |
