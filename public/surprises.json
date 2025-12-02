@@ -1,9 +1,11 @@
 [
   {
-    "id": 1
+    "id": 1,
+    "text": "Stasera scegli tu il film."
   },
   {
-    "id": 2
+    "id": 2,
+    "text": "Buono per una cioccolata calda preparata da me, quando vuoi tu. ☕️"
   },
   {
     "id": 3
