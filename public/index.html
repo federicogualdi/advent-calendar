@@ -1,0 +1,79 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Font cursivo tipo "Baci" (placeholder) -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Gaiendario dell'Avvento</title>
+    </head>
+
+    <body>
+        <div class="page">
+            <div class="calendar-card">
+                <div class="calendar-inner">
+                    <div class="top-strip">
+                        <div class="top-windows">
+                            <div class="tw-window"></div>
+                            <div class="tw-window"></div>
+                            <div class="tw-star">★</div>
+                            <div class="tw-window"></div>
+                            <div class="tw-window"></div>
+                        </div>
+                    </div>
+
+                    <div class="logo-area">
+                        <div class="logo-baci">Baci</div>
+                        <div class="logo-baci">baci, ci vediamooo</div>
+                        <div class="slogan">Questo è il tuo calendario bello.</div>
+                    </div>
+
+                    <div class="scene">
+                        <div class="house">
+                            <div class="house-window"></div>
+                            <div class="house-window"></div>
+                            <div class="house-window"></div>
+                            <div class="house-window"></div>
+                            <div class="house-window"></div>
+                            <div class="house-window"></div>
+                        </div>
+
+                        <div class="tree">
+                            <div class="tree-triangle"></div>
+                            <div class="tree-lights"></div>
+                        </div>
+
+                        <div class="ground"></div>
+
+                        <div class="doors-layer" id="doorsLayer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal scratch -->
+        <div id="scratchModal" class="modal hidden">
+            <div class="modal-card">
+                <button class="modal-close" id="closeModalBtn">&times;</button>
+                <div class="modal-inner">
+                    <div class="modal-day" id="modalDayLabel"></div>
+                    <div class="modal-title" id="modalTitle"></div>
+
+                    <div class="scratch-wrapper" id="scratchWrapper">
+                        <div class="surprise-content">
+                            <span id="surpriseText"></span>
+                        </div>
+                        <canvas id="scratchCanvas"></canvas>
+                    </div>
+
+                    <div class="scratch-hint">
+                        <span>👆</span>
+                        <span>Gratta con il dito per scoprire la sorpresa.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
