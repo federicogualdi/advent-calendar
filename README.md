@@ -13,7 +13,9 @@ The layout mimics a physical advent calendar: a vertical card with a top strip, 
 - Scratch-card effect using an HTML `<canvas>` overlay
 - Day-locking logic:
     - Doors unlock based on the **current date in December**
-    - Date is fetched from a **public time API** (`worldtimeapi.org`), so changing the phone’s date doesn’t easily bypass the rules
+    - Doors prize generated automatically from the scheduled pipeline
 - Light snow effect and subtle animations
 - 100% frontend: just HTML, CSS and vanilla JavaScript
+
+The main code is under the folder 'docs' so it can be hosted on GitHub Pages.
 

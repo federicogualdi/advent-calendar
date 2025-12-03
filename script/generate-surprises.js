@@ -15,7 +15,7 @@ function getRomeDate() {
 
 function main() {
     const allPath = path.join(__dirname, "..", "data", "all-surprises.json");
-    const outPath = path.join(__dirname, "..", "public", "surprises.json");
+    const outPath = path.join(__dirname, "..", "docs", "surprises.json");
 
     const raw = fs.readFileSync(allPath, "utf8");
     const all = JSON.parse(raw);
