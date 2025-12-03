@@ -17,19 +17,17 @@ body {
     min-height: 100vh;
     background:
             radial-gradient(circle at top, #0b1b44, #020617 55%, #000010 100%);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    display: block;                         /* 👈 niente flex globale */
     padding: 16px 12px 32px;
     font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: var(--white);
+    color: #f9fafb;
     overflow-x: hidden;
 }
 
 .page {
     width: 100%;
-    max-width: 420px;
-    position: relative;
+    max-width: 480px;                       /* si adatta bene a iPhone */
+    margin: 0 auto;
 }
 
 /* Carta del calendario (forma verticale) */
